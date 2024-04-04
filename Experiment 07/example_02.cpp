@@ -1,3 +1,5 @@
+/* Breadth First Search (BFS) Traversal. */
+
 #include <bits/stdc++.h>
 using namespace std;
 vector<int> adj[100];

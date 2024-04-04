@@ -28,7 +28,7 @@ int main()
     cout << "Enter the Source Node: " << endl;
     cin >> source;
     queue<int> q;
-    q.push(source); // jei graph niye kaj kortesi otar root 1 assume krsi
+    q.push(source); 
     vis[source] = 1;
     while (!q.empty())
     {

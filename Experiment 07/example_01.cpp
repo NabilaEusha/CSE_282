@@ -19,7 +19,7 @@ int main()
         graph[v].push_back(u);
     }
 
-    for (int j = 0; j <= nodes; j++)
+    for (int j = 0; j < nodes; j++)
     {
         cout << j << " --> ";
         for (auto it : graph[j])
